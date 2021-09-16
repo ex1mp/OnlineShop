@@ -1,0 +1,36 @@
+version: '3.4'
+
+services:
+  onlineshop.identity.web:
+    image: ${DOCKER_REGISTRY-}onlineshopidentityweb
+    build:
+      context: .
+      dockerfile: OnlineShop.Identity/OnlineShop.Identity.Web/Dockerfile
+
+  onlineshop.ordering.web:
+    image: ${DOCKER_REGISTRY-}onlineshoporderingweb
+    build:
+      context: .
+      dockerfile: OnlineShop.Ordering/OnlineShop.Ordering.Web/Dockerfile
+
+
+  onlineshop.catalog.web:
+    image: ${DOCKER_REGISTRY-}onlineshopcatalogweb
+    build:
+      context: .
+      dockerfile: OnlineShop.Catalog/OnlineShop.Catalog.Web/Dockerfile
+
+
+  onlineshop.basket.web:
+    image: ${DOCKER_REGISTRY-}onlineshopbasketweb
+    build:
+      context: .
+      dockerfile: OnlineShop.Basket/OnlineShop.Basket.Web/Dockerfile
+
+
+  gateway:
+    image: ${DOCKER_REGISTRY-}gateway
+    build:
+      context: .
+      dockerfile: Gateway/Dockerfile
+

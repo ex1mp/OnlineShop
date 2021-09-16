@@ -23,6 +23,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShop.Basket.Web", "On
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShop.Ordering.Web", "OnlineShop.Ordering\OnlineShop.Ordering.Web\OnlineShop.Ordering.Web.csproj", "{4D2B4449-C2B7-42A0-B17E-9887B9057923}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{F553E6A0-3591-4676-9723-EFF47A7EE806}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gateway", "Gateway\Gateway.csproj", "{2570AB02-0BBE-4735-AF87-2FF83F6713B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +57,14 @@ Global
 		{4D2B4449-C2B7-42A0-B17E-9887B9057923}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D2B4449-C2B7-42A0-B17E-9887B9057923}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D2B4449-C2B7-42A0-B17E-9887B9057923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F553E6A0-3591-4676-9723-EFF47A7EE806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F553E6A0-3591-4676-9723-EFF47A7EE806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F553E6A0-3591-4676-9723-EFF47A7EE806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F553E6A0-3591-4676-9723-EFF47A7EE806}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2570AB02-0BBE-4735-AF87-2FF83F6713B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2570AB02-0BBE-4735-AF87-2FF83F6713B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2570AB02-0BBE-4735-AF87-2FF83F6713B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2570AB02-0BBE-4735-AF87-2FF83F6713B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
