@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace OnlineShop.Catalog.Contracts
+﻿namespace OnlineShop.Catalog.Contracts
 {
     public class Class1
     {

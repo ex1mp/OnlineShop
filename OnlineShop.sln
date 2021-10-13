@@ -25,7 +25,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShop.Ordering.Web", "
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{F553E6A0-3591-4676-9723-EFF47A7EE806}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gateway", "Gateway\Gateway.csproj", "{2570AB02-0BBE-4735-AF87-2FF83F6713B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gateway", "Gateway\Gateway.csproj", "{2570AB02-0BBE-4735-AF87-2FF83F6713B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShop.Ordering.Data", "OnlineShop.Ordering\OnlineShop.Ordering.Data\OnlineShop.Ordering.Data.csproj", "{B33E3233-FA4C-4099-BB98-EEFBE5266A57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShop.Identity.Data", "OnlineShop.Identity\OnlineShop.Identity.Data\OnlineShop.Identity.Data.csproj", "{07BD0F0B-212E-4E53-9162-43EB032BA208}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,6 +69,14 @@ Global
 		{2570AB02-0BBE-4735-AF87-2FF83F6713B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2570AB02-0BBE-4735-AF87-2FF83F6713B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2570AB02-0BBE-4735-AF87-2FF83F6713B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B33E3233-FA4C-4099-BB98-EEFBE5266A57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B33E3233-FA4C-4099-BB98-EEFBE5266A57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B33E3233-FA4C-4099-BB98-EEFBE5266A57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B33E3233-FA4C-4099-BB98-EEFBE5266A57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07BD0F0B-212E-4E53-9162-43EB032BA208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07BD0F0B-212E-4E53-9162-43EB032BA208}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07BD0F0B-212E-4E53-9162-43EB032BA208}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07BD0F0B-212E-4E53-9162-43EB032BA208}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +88,8 @@ Global
 		{B5DF56D6-4273-4BC9-A9B5-C39A1161DF97} = {E960E484-1C2B-41D1-A8AF-FE32A8973A0A}
 		{D2151A15-D024-4169-AA8B-F123B5C575A2} = {BCB05ACA-6BC5-4F25-B529-9FE67938A276}
 		{4D2B4449-C2B7-42A0-B17E-9887B9057923} = {C859262D-6CFA-4680-AE9E-15AF4E1CC36D}
+		{B33E3233-FA4C-4099-BB98-EEFBE5266A57} = {C859262D-6CFA-4680-AE9E-15AF4E1CC36D}
+		{07BD0F0B-212E-4E53-9162-43EB032BA208} = {E960E484-1C2B-41D1-A8AF-FE32A8973A0A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {92619DE0-6DB9-413A-9999-1D2D6C366441}
