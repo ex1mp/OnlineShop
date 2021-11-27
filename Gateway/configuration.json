@@ -1,9 +1,42 @@
 {
   "Routes": [
-    {}
+    {
+      "DownstreamPathTemplate": "/api/WeatherForecast",
+      "DownstreamScheme": "https",
+
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "OnlineShop.Identity.Web",
+          "Port": "443"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/WeatherForecast",
+      "SwaggerKey": "OnlineShop.Identity.Web"
+    },
+    {
+      "DownstreamPathTemplate": "/api/WeatherForecast/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "OnlineShop.Identity.Web",
+          "Port": "443"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/WeatherForecast/{everything}",
+      "SwaggerKey": "OnlineShop.Identity.Web"
+    }
   ],
   "SwaggerEndPoints": [
-    {}
+    {
+      "Key": "OnlineShop.Identity.Web",
+      "Config": [
+        {
+          "Name": "OnlineShop.Identity.Web",
+          "Version": "v1",
+          "Url": "http://OnlineShop.Identity.Web:80/swagger/v1/swagger.json"
+        }
+      ]
+    }
   ],
   "GlobalConfiguration": {
   }
