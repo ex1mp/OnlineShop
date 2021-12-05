@@ -3,10 +3,9 @@
     {
       "DownstreamPathTemplate": "/api/WeatherForecast",
       "DownstreamScheme": "https",
-
       "DownstreamHostAndPorts": [
         {
-          "Host": "OnlineShop.Identity.Web",
+          "Host": "onlineshop.identity.web",
           "Port": "443"
         }
       ],
@@ -18,7 +17,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "OnlineShop.Identity.Web",
+          "Host": "onlineshop.identity.web",
           "Port": "443"
         }
       ],
